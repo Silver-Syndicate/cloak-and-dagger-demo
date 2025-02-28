@@ -1,57 +1,82 @@
+---
+layout: default
+title: Cloak & Dagger
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLOAK & DAGGER</title>
-    <style>
-        body {
-            background-color: #0a0a0a;
-            color: #d1d1d1;
-            font-family: "Courier New", monospace;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            font-size: 3em;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            background: linear-gradient(90deg, #ff0000, #660000);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            border: 2px solid #ff0000;
-            background: rgba(10, 10, 10, 0.85);
-            box-shadow: 0px 0px 15px #ff0000;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.6;
-        }
-        .glitch {
-            font-size: 1.5em;
-            color: #ff0000;
-            text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.6);
-            animation: glitch 1s infinite alternate;
-        }
-        @keyframes glitch {
-            0% { text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.6); }
-            50% { text-shadow: -2px -2px 4px rgba(255, 0, 0, 0.6); }
-            100% { text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.6); }
-        }
-    </style>
+    <title>Cloak & Dagger</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>CLOAK & DAGGER</h1>
-        <p>Welcome to the shadows. You are not here by chance.</p>
-        <p>We are the unseen. The untraceable. The ones who move in silence but strike with precision.</p>
-        <p>Knowledge is our weapon. The digital battlefield is ours to command.</p>
-        <p class="glitch">There is no turning back.</p>
+        <header>
+            <h1>CLOAK & DAGGER</h1>
+            <p class="tagline">"Silence in the shadows. Impact in the light."</p>
+        </header>
+        <section class="content">
+            <p class="intro">A covert initiative engineered to forge digital operatives. Precision. Stealth. Intelligence.</p>
+            <p class="details">We are building the tools to arm the digital frontier against corruption, deception, and injustice. Stay in the dark. Operate in the light.</p>
+            <a href="#" class="btn">Enter the Shadow Network</a>
+        </section>
+        <footer>
+            <p>&copy; 2025 Cloak & Dagger. All Rights Reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
+
+<style>
+    body {
+        background-color: #0a0a0a;
+        color: #e0e0e0;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+    .container {
+        max-width: 800px;
+        margin: 100px auto;
+        padding: 20px;
+        border: 1px solid #222;
+        background: rgba(10, 10, 10, 0.95);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    }
+    h1 {
+        font-size: 2.5em;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 3px;
+        color: #d62828;
+    }
+    .tagline {
+        font-size: 1.2em;
+        color: #bbb;
+    }
+    .content p {
+        font-size: 1.1em;
+        margin: 20px 0;
+    }
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #d62828;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+    .btn:hover {
+        background-color: #a81c1c;
+    }
+    footer {
+        margin-top: 30px;
+        font-size: 0.8em;
+        color: #666;
+    }
+</style>
